@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Grupp 27 AB</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <!-- HOME MENU -->
+        <header class="logo">
+            <a href="index.html" ><img src="images/logo.png" alt="logo"></a>
+            <h1>Group TväntySäven</h1>
+        </header>
+        
+        <table id="menu">
+            <li><a href="index.html">Startsida</a></li>
+            <li><a href="listings.html">Objektsida</a></li>   
+            <li><a href="contact.html">Kontakta oss</a></li>        
+        </table><br>
+        <hr>
+        <side id="side_show">
+            <!-- TWO AD IMAGES -->
+            <aside id="home_aside_1">
+                <a href="https://kau.se" target="_blank"><img src="images/kau.png" alt="kau"></a>
+            </aside>
+            <aside id="fields">
+                <form class="formcl">   
+                    <h3>
+                        Vill du ge oss feedback?</h3>
+                    <div>
+                      <label for="name_button">Ditt namn:</label><br>
+                      <input type="text" id="name_button" required>
+                    </div>
+                    <div>
+                      <label for="email_button">Din epost</label><br>
+                      <input type="email" id="email_button" required>
+                    </div>
+                    <div>
+                      <label for="text_button">Feedback</label><br>
+                      <textarea rows="15" id="text_button"></textarea>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Stensystem</legend>
+                            <label>Välj Stensystem:<br>
+                                <input type="radio" name="shipping" required> Långsam sten<br>
+                                <input type="radio" name="shipping" required> Snabb sten<br>
+                                </label>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <label for="textf">Något vi bör tänka på?</label>
+                        <input type="text" id="textf">
+                    </div>
+                    <div>
+                      <label for="tos_button">Godkänn kundvillkor</label>
+                      <input type="checkbox" id="tos_button" required> 
+                    </div>
+                    <div>
+                      <label for="tos_button2">Du är glad</label>
+                      <input type="checkbox" id="tos_button2"> 
+                    </div>
+                    <div>
+                      <label for="stenar">Stenar:</label><br>
+                      <select id="stenar" required>
+                        <option>Liten sten</option>
+                        <option>Mellan sten</option>
+                        <option>Stor sten</option>
+                        <option>STÖRSTA STENEN I UNIVERSUM</option>
+                      </select>
+                    </div>
+                    <div>
+                      <button type="submit">Skicka</button>
+                      <button type="reset">Rensa</button>
+                    </div>
+                </form>
+            </aside>
+        </side>
+        <main>
+            <p class="center_text">
+                Köp dina stenar här. Group TväntySäven är det sjävklara stället du går till för dina steninköp. Vi har allt ifrån stora stenar, till mindre kulsprutepistoler. 
+            </p>
+            <p class="center_text">
+                Hos oss hittar du stenar av hög kvalité till stenbra priser. Vi erbjuder alltid experthjälp när du handlar för mer än 200 000 kronor.
+            </p>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9923.859586647692!2d12.833406520020663!3d62.664945358630675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466e99b42ad98db7%3A0x34f4758a3d9c5d06!2s840%2095%20Messlingen!5e1!3m2!1ssv!2sse!4v1643292742833!5m2!1ssv!2sse" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </main>
+        <hr>
+        <h3 style="font-size: 36px;">Exempel på vårat utbud:</h3>
+        <list class="stoneRow2">
+            <article class="article2">
+                <section class="bild">
+                    <a href="listings.html"><img src="images/sten1.jpg" alt="stor sten"></a>
+                </section>
+                <hr>
+                <h3>Stor sten: 100 000kr</h3>
+                <p>En fin stor sten.</p>
+            </article>
+
+
+            <article class="article2">
+                <section class="bild">
+                    <a href="listings.html"><img src="images/litenhog.jpg" alt="hög med stenar"></a>
+                </section>
+                <hr>
+                <h3>Hög med 5 stenar: 3,000,000kr</h3>
+                <p>Mycket fin hög med stenar av högsta kvalité.</p>
+            </article>
+        </list>
+
+
+        <!-- FOOTER LAST -->
+        <footer id="fot">
+            <p>Authors: Hugo Friberg, Kasper Barzenji, Karl Jonsson</p>
+            <p>Contact our email at: business@hotmail.com</p>
+        </footer>
+    </body>
+</html>
