@@ -1,0 +1,135 @@
+/* Enhet 1 (mobiler och smartphones) 
+< 400px eller max width är 400px
+*/
+@media only screen and (max-width : 400px) {
+
+
+}
+
+/* Större än 400px bred men mindre än 800px bred  */
+@media only screen and (max-width : 800px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 801px) {
+
+    /* SET BODY MARGIN AND BACKGROUND COLOR */
+    body {
+        background-color: gray;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /* STYLE HEADER OR TITLE */
+    h1 {
+        color: white;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    /* HEADER BACKGORUND COLOR */
+    .banner {
+        background-color: red;
+        border: 1px solid black;
+        height: 90px;
+    }
+
+    /* TABLE STYLING 
+    *   
+    */
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        background-color: gold;
+        border: 1px solid black;
+        padding: 10px;
+        margin-top: 34px;
+
+    }
+
+    .menu > li > a{
+        color: black;
+        text-decoration: solid;
+        font-size: larger;
+        background-color: deepskyblue;
+        border: 1px solid red;
+        padding: 4px;
+        border-radius: 4px 4px 4px;
+        /* border-radius: 10px 10px 10px; */
+    }
+
+    .menu > li > a:hover {
+        background-color: white;
+    }
+
+    /* TODO: PLACE IMAGE HERE */
+    
+
+    .pushdown {
+        margin-top: 20%;
+    }
+
+    /* MAIN SECTION STYLING */
+    .mainside {
+        /* display: flex; */
+        /* flex-direction: column; */
+        float: right;
+        background-color: blue;
+        border: 1px solid black;
+        width: 60%;
+        height: 91%;
+
+        color: white;    
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 2px 2px 2px black;
+        text-align: center;
+        font-size: large;
+    }
+    
+    .vid {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* padding-bottom: 500px; */
+        /* margin-bottom: 100px; */
+    }
+    
+    /* ASIDE STYLING */
+    .sidemenu {
+        background-color: plum;
+        border: 1px solid black;
+
+        width: 41%;
+        height: 91%;
+    }
+
+    .sidemenu > h3 {
+        color: white;    
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 2px 2px 2px black;
+        text-align: center;
+        font-size: large;
+    }
+
+    img.animated-gif {
+        margin-left: 3%;
+        padding-top: 3%;
+        width: 20%;
+        height: 20%;
+    }
+
+    footer > p {
+        text-align: center;
+        font-size: large;
+        text-decoration: wavy;
+        background-color: aquamarine;
+        border: 1px solid black;
+        padding: 8px;
+    }
+
+}
