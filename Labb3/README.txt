@@ -1,13 +1,16 @@
+My git repo: https://github.com/KasperBarzenji/ISAGA11-Labbar
+
+cat-eyes-1383665.jpg
+SOURCE: https://www.freeimages.com/se/photo/cat-eyes-1383665
+
+cat-1404368.jpg
+SOURCE: https://www.freeimages.com/se/photo/cat-1404368
+
+water-1197973.jpg
+SOURCE: https://www.freeimages.com/se/photo/water-1197973
+
 grass-field-1397829.jpg
 SOURE: https://www.freeimages.com/se/photo/grass-field-1397829
 
-rick-roll-rick-ashley.gif
-SOURE: https://tenor.com/view/rickroll-roll-rick-never-gonna-give-you-up-never-gonna-gif-22954713
-
-Rickrolling-in-4K-jpg
-SOURCE: https://www.trustedreviews.com/news/incredible-4k-60fps-rick-astley-remaster-proves-were-never-gonna-give-up-rickrolling-4124027
-
-rickroll.mp4
-SOURCE: https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley
-
-My git repo: https://github.com/KasperBarzenji/ISAGA11-Labbar
+production ID_5077814.mp4
+SOURCE: https://www.pexels.com/sv-se/video/hav-fagelperspektiv-natur-resa-5077814/

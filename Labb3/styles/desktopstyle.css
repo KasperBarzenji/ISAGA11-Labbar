@@ -4,118 +4,122 @@
 * MEDIA SRC: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
 */
 @media only screen and (min-width: 801px) {
+  /* SET BODY MARGIN AND BACKGROUND COLOR */
+  body {
+    background-color: gray;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
-    /* SET BODY MARGIN AND BACKGROUND COLOR */
-    body {
-        background-color: gray;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+  /* STYLE HEADER AND TITLE */
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 2px 2px black;
+  }
 
-    /* STYLE HEADER AND TITLE */
-    h1 {
-        color: white;
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
-        text-shadow: 2px 2px 2px black;
-    }
+  /* HEADER BACKGORUND COLOR */
+  .banner {
+    background-color: red;
+    border: 1px solid black;
+    height: 15%;
+  }
 
-    /* HEADER BACKGORUND COLOR */
-    .banner {
-        background-color: red;
-        border: 1px solid black;
-        height: 15%;
-    }
+  /* TABLE MENU LIST ITEM STYLING */
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: gold;
+  }
 
-   /* TABLE MENU LIST ITEM STYLING */
-    .menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        list-style-type: none;
-        background-color: gold;
-    }
+  /* STYLE THE LIST ITEM BUTTONS HREF LINKS */
+  .menu > li > a {
+    color: black;
+    text-decoration: solid;
+    font-size: medium;
+    background-color: deepskyblue;
+    border: 1px solid red;
+    padding: 4px;
+    border-radius: 4px 4px 4px;
+  }
 
-    /* STYLE THE LIST ITEM BUTTONS HREF LINKS */
-    .menu > li > a{
-        color: black;
-        text-decoration: solid;
-        font-size: medium;
-        background-color: deepskyblue;
-        border: 1px solid red;
-        padding: 4px;
-        border-radius: 4px 4px 4px;
-    }
+  /* HOVER EFFECT WHEN HOVERING BUTTONS */
+  .menu > li > a:hover {
+    background-color: white;
+  }
 
-    /* HOVER EFFECT WHEN HOVERING BUTTONS */
-    .menu > li > a:hover {
-        background-color: white;
-    }
+  /* DRAWS A FLEXIBLE IMAGE */
+  .bannerimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 
-    /* DRAWS A FLEXIBLE IMAGE */
-    .bannerimage {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
+    max-height: 20%;
+  }
 
-        max-height: 20%;
-    }
+  /* MAIN SECTION STYLING */
+  .mainside {
+    float: right;
+    background-color: blue;
+    border: 1px solid black;
+    width: 60%;
+    height: 91%;
 
-    /* MAIN SECTION STYLING */
-    .mainside {
-        float: right;
-        background-color: blue;
-        border: 1px solid black;
-        width: 60%;
-        height: 91%;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    font-size: large;
+  }
 
-        color: white;    
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-shadow: 2px 2px 2px black;
-        text-align: center;
-        font-size: large;
-    }
-    
-    /* STYLE VIDEO */
-    .vid {
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    
-    /* ASIDE STYLING */
-    .sidemenu {
-        background-color: plum;
-        border: 1px solid black;
-        width: 41%;
-        height: 91%;
-    }
+  /* STYLE VIDEO */
+  .vid {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
-    /* STYLING THE 'SIDEMENY' TEXT */
-    .sidemenu > h3 {
-        color: white;    
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-shadow: 2px 2px 2px black;
-        text-align: center;
-        font-size: large;
-    }
+  /* ASIDE STYLING */
+  .sidemenu {
+    background-color: plum;
+    border: 1px solid black;
+    width: 41%;
+    height: 91%;
+  }
 
-    /* STYLING THE GIFS ON THE SIDEMENU */
-    img.animated-gif {
-        margin-left: 3%;
-        width: 20%;
-        height: 20%;
-    }
+  /* STYLING THE 'SIDEMENY' TEXT */
+  .sidemenu > h3 {
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    font-size: large;
+  }
 
-    /* STYLE THE FOOTER BOTTOM PAGE */
-    footer {
-        text-align: center;
-        font-size: large;
-        text-decoration: wavy;
-        background-color: aquamarine;
-        border: 1px solid black;
-        padding: 8px;
-    }
+  /* STYLING TWO IMAGES WITH FLEXIBILITY USING PERCENT TO SCALE ACCORDINGLY */
+  img.sideimages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 3%;
+    padding-top: 1%;
+    width: 90%;
+    height: 45%;
+  }
+
+  /* STYLE THE FOOTER BOTTOM PAGE */
+  footer {
+    text-align: center;
+    font-size: large;
+    text-decoration: wavy;
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 8px;
+  }
 }
