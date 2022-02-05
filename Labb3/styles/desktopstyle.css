@@ -1,4 +1,8 @@
 /* Large Devices, Wide Screens */
+
+/* 
+* MEDIA SRC: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+*/
 @media only screen and (min-width: 801px) {
 
     /* SET BODY MARGIN AND BACKGROUND COLOR */
@@ -26,10 +30,10 @@
    /* TABLE MENU LIST ITEM STYLING */
     .menu {
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
         list-style-type: none;
         background-color: gold;
-        padding: 13px;
     }
 
     /* STYLE THE LIST ITEM BUTTONS HREF LINKS */
@@ -51,7 +55,6 @@
     /* DRAWS A FLEXIBLE IMAGE */
     .bannerimage {
         display: flex;
-        /* border: 2px dotted black; */
         justify-content: center;
         align-items: center;
         overflow: hidden;
