@@ -26,14 +26,16 @@
   }
 
   /* TABLE MENU LIST ITEM STYLING */
+  /* FIXADE SÅ ATT NAV ÄR NU KOLUMN OCH INTE RAD */
   .menu {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
     list-style-type: none;
     background-color: gold;
-    /* fixes icons are more centered */
-    padding-right: 10%;
+    gap: 2rem;
   }
 
   /* STYLE THE LIST ITEM BUTTONS HREF LINKS */
